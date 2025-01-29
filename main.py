@@ -93,7 +93,7 @@ def dat_to_commit(cons_command):
             for cont in new_line_spl:
                 with_new_lines.append(cont)
             return with_new_lines
-
+            
         else:
             return spl_info[1]
     else:
